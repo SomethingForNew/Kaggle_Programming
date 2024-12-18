@@ -38,14 +38,14 @@
 # a basement adds 40000 to the expected cost.
 
 # TODO: Complete the function
-def get_expected_cost(beds, baths, has_basement):
+def get_expected_cost(beds:int, baths:int, has_basement:bool):
     """Returns the sum of base_cost, beds, baths, has_basement
 
     Args:
-        base_cost        (int): First number to add
-        beds             (int): Second number to add
-        baths            (int): Third number to add
-        has_baseMent (boolean): Last number to add
+        base_cost    (int): First number to add
+        beds         (int): Second number to add
+        baths        (int): Third number to add
+        has_baseMent (bool): Last number to add
     
     Returns:
         int: Sum of 'base_cost', 'beds', 'baths', 'has_baseMent'
