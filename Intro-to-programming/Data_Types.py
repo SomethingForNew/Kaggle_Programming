@@ -51,8 +51,8 @@ def get_expected_cost(beds, baths, has_basement):
         int: Sum of 'base_cost', 'beds', 'baths', 'has_baseMent'
     """
     base_cost = 80000
-    total_beds_cost = 30000 * beds
-    total_baths_cose = 10000 * baths
+    beds_cost = 30000 * beds
+    baths_cose = 10000 * baths
     basement_cost = 40000 * int(has_basement)
-    value = base_cost  + total_beds_cost + total_baths_cose + basement_cost
+    value = base_cost  + beds_cost + baths_cose + basement_cost
     return value
