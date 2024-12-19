@@ -45,3 +45,30 @@ def cost_of_project(engraving, solid_gold):
         return 50 + 7 * len(engraving)
 
 
+# Question 3
+# You are a programmer at a water agency. Recently, you have been tasked to write a function get_water_bill() that takes as input:
+
+# num_gallons = the number of gallons of water that a customer used that month. (This will always be an integer with no decimal part.)
+# It should output the water bill.
+
+# The water agency uses this pricing structure:
+
+# Tier	Amount in gallons	Price per 1000 gallons
+# Tier 1	0 - 8,000	$5
+# Tier 2	8,001 - 22,000	$6
+# Tier 3	22,001 - 30,000	$7
+# Tier 4	30,001+	$10
+
+# TODO: Edit the function to return the correct bill for different
+# values of num_gallons
+def get_water_bill(num_gallons):
+    if num_gallons <= 8000:
+        return 5 * num_gallons / 1000
+    elif num_gallons <= 22000:
+        return 6 * num_gallons / 1000
+    elif num_gallons <= 30000:
+        return 7 * num_gallons / 1000
+    else:
+        return 10 * num_gallons / 1000
+
+
