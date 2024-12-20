@@ -46,14 +46,14 @@ area = radius ** 2 * pi
 # If you get stuck, you can always uncomment one or both of the lines in
 # the next cell for a hint, or to peek at the solution.
 
-a, b = b, a
+#a, b = b, a
 
 
 # 3a.
 # Add parentheses to the following expression so that it evaluates to 1.
 
 # 5 - 3 // 2
-(5 - 3) // 2
+#(5 - 3) // 2
 
 
 # 3b. 🌶️
@@ -62,7 +62,7 @@ a, b = b, a
 # Add parentheses to the following expression so that it evaluates to 0.
 
 # 8 - 3 * 2 - 1 + 1
-(8 - 3) * (2 - (1 + 1))
+#(8 - 3) * (2 - (1 + 1))
 
 
 # 4.
@@ -71,8 +71,8 @@ a, b = b, a
 # Write an arithmetic expression below to calculate how many candies they must smash for a given haul.
 
 
-alice_candies = 121 
-bob_candies = 77
-carol_candies = 109
+# alice_candies = 121 
+# bob_candies = 77
+# carol_candies = 109
 
-print(alice_candies + bob_candies + carol_candies) % 3
+# print(alice_candies + bob_candies + carol_candies) % 3
