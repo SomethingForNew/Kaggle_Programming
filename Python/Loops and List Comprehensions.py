@@ -15,3 +15,30 @@ def has_lucky_number(nums):
     # one-line version using a list comprehension with Python's any function
     # return any([num % 7 == 0 for num in nums])
 
+# 2.
+# Look at the Python expression below. What do you think we'll get when we run it?
+# When you've made your prediction, uncomment the code and run the cell to see if you were right
+
+# R and Python have some libraries (like numpy and pandas) compare each element of the list to 2
+# (i.e. do an 'element-wise' comparison) and give us a list of booleans like [False, False, True, True].
+
+# Implement a function that reproduces this behaviour, returning a list of booleans corresponding to whether the corresponding element is greater than n.
+
+def elementwise_greater_than(L, thresh):
+    """Return a list with the same length as L, where the value at index i is 
+    True if L[i] is greater than thresh, and False otherwise.
+    
+    >>> elementwise_greater_than([1, 2, 3, 4], 2)
+    [False, False, True, True]
+    """
+    pass
+
+    res = []
+
+    for num in L:
+        res.append(num > thresh)
+
+    return res
+
+    # list comprehension version:
+    # return [ele > thresh for ele in L]
