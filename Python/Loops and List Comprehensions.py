@@ -42,3 +42,17 @@ def elementwise_greater_than(L, thresh):
 
     # list comprehension version:
     # return [ele > thresh for ele in L]
+
+
+# 3.
+# Complete the body of the function below according to its docstring.
+
+def menu_is_boring(meals):
+    """Given a list of meals served over some period of time, return True if the
+    same meal has ever been served two days in a row, and False otherwise.
+    """
+    pass
+    for i in range(len(meals)-1):
+        if meals[i] == meals[i+1]:
+            return True
+    return False
