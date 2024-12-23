@@ -57,3 +57,10 @@
 # reviews = pd.read_csv("../input/wine-reviews/winemag-data_first150k.csv", index_col=0)
 
 
+# 5.
+# Run the cell below to create and display a DataFrame called animals:
+# animals = pd.DataFrame({'Cows': [12, 20], 'Goats': [22, 19]}, index=['Year 1', 'Year 2'])
+# animals
+
+# My Solution:
+# animals.to_csv('cows_and_goats.csv')
